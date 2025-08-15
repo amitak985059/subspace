@@ -239,6 +239,7 @@ export const LoginForm: React.FC = () => {
             <h4>USER NAME: user@gmail.com</h4>
             <h4>PASSWORD: 123456789</h4>
             </div>
+            <p>Maybe when you are checking the chatbot it may show unauthorised credintials errors due to lack of credits in openrouter then please contect me email:amitak985059@gmail.com phone: 7651808749</p>
         </div>
       </div>
     </div>
