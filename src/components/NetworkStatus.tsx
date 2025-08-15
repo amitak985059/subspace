@@ -48,7 +48,7 @@ export const NetworkStatus: React.FC = () => {
 
   if (!isOnline || nhostStatus === 'offline') {
     return (
-      <div className="fixed top-20 right-4 bg-red-50 border border-red-100 rounded-lg p-4 flex items-center space-x-2 shadow-lg z-50">
+      <div className=" hidden fixed top-20 right-4 bg-red-50 border border-red-100 rounded-lg p-4 flex items-center space-x-2 shadow-lg z-50">
         <WifiOff className="w-5 h-5text-red-500" />
         <div>
           <p className="text-red-300 font-medium text-sm">Connection Issue</p>
