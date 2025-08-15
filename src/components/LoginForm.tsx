@@ -235,6 +235,10 @@ export const LoginForm: React.FC = () => {
               : "Don't have an account? Sign up"
             }
           </button>
+          <div className="text-center text-gray-500 text-sm mt-4">
+            <h4>USER NAME: user@gmail.com</h4>
+            <h4>PASSWORD: 123456789</h4>
+            </div>
         </div>
       </div>
     </div>
